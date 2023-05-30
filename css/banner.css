@@ -1,0 +1,64 @@
+.bg1{
+    background-image: url(../img/bg/01.jpg);
+}
+.bg2{
+    background-image: url(../img/bg/02.jpg);
+}
+.bg3{
+    background-image: url(../img/bg/03.jpg);
+}
+.bg4{
+    background-image: url(../img/bg/04.jpg);
+}
+.bg5{
+    background-image: url(../img/bg/05.jpg);
+}
+.bg6{
+    background-image: url(../img/bg/06.jpg);
+}
+.bg7{
+    background-image: url(../img/bg/07.jpg);
+}
+.bg8{
+    background-image: url(../img/bg/08.jpg);
+}
+.bg9{
+    background-image: url(../img/bg/09.jpg);
+}
+.bg10{
+    background-image: url(../img/bg/10.jpg);
+}
+.bg11{
+    background-image: url(../img/bg/11.jpg);
+}
+.bg12{
+    background-image: url(../img/bg/12.jpg);
+}
+.bg13{
+    background-image: url(../img/bg/13.jpg);
+}
+.bg14{
+    background-image: url(../img/bg/14.jpg);
+}
+
+#mainBanner .swiper-slide{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    border-radius: 30px;   
+}
+#mainBanner .swiper-slide::before{
+    content: "";
+    display: block;
+    height: 0;
+    padding-top:52%;
+}
+.pageBox{
+    display: flex;
+    justify-content: center;
+}
+.pageBox .swiper-pagination {
+  position: unset;
+  background-color: black;
+  color:white
+}
